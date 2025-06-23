@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Meme Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🔥 MEMEverse - Meme Store</h1>
+
+  <form id="uploadForm">
+    <input type="file" id="memeImage" accept="image/*" required />
+    <input type="text" id="memeTitle" placeholder="Enter Meme Title" required />
+    <button type="submit">Upload Meme</button>
+  </form>
+
+  <p id="status"></p>
+
+  <div id="gallery" class="gallery"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
