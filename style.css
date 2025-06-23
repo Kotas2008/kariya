@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.meme-card {
+  background: #222;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.meme-card img {
+  width: 100%;
+  border-radius: 10px;
+}
